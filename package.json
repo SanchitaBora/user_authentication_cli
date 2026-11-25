@@ -1,0 +1,23 @@
+{
+  "name": "@magenta-canvas/session-cli",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "canvas-session": "./src/cli.mjs",
+    "canvas-session-mcp": "./src/mcp.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/cli.mjs",
+    "setup": "node src/setup.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "^1.51.1",
+    "@modelcontextprotocol/sdk": "^1.20.0",
+    "zod": "^3.25.0"
+  }
+}
