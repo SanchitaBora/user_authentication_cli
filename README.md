@@ -1,7 +1,5 @@
 # Magenta Canvas plaintext session CLI
 
-This build **does not use passphrases, scrypt, encryption or macOS Keychain**. It saves sessions in the original CLI's `storageState` + `metadata` JSON structure.
-
 ## Install
 
 Requires Node.js 20+.
